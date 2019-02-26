@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0CA5D0BC221A677B0066513D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5D0BB221A677B0066513D /* AppDelegate.swift */; };
-		0CA5D0BE221A677B0066513D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5D0BD221A677B0066513D /* ViewController.swift */; };
 		0CA5D0C1221A677B0066513D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA5D0BF221A677B0066513D /* Main.storyboard */; };
 		0CA5D0C3221A67830066513D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA5D0C2221A67830066513D /* Assets.xcassets */; };
 		0CA5D0C6221A67830066513D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA5D0C4221A67830066513D /* LaunchScreen.storyboard */; };
+		0CA5D0CE221ACDBB0066513D /* IconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5D0CD221ACDBB0066513D /* IconCollectionViewCell.swift */; };
+		0CA5D0D0221ACDD70066513D /* IconCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5D0CF221ACDD70066513D /* IconCollectionViewController.swift */; };
+		0CA5D0D2221AF0890066513D /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5D0D1221AF0880066513D /* Icon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CA5D0B8221A677B0066513D /* CollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA5D0BB221A677B0066513D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CA5D0BD221A677B0066513D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0CA5D0C0221A677B0066513D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CA5D0C2221A67830066513D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA5D0C5221A67830066513D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA5D0C7221A67830066513D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA5D0CD221ACDBB0066513D /* IconCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCollectionViewCell.swift; sourceTree = "<group>"; };
+		0CA5D0CF221ACDD70066513D /* IconCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCollectionViewController.swift; sourceTree = "<group>"; };
+		0CA5D0D1221AF0880066513D /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				0CA5D0BB221A677B0066513D /* AppDelegate.swift */,
-				0CA5D0BD221A677B0066513D /* ViewController.swift */,
 				0CA5D0BF221A677B0066513D /* Main.storyboard */,
 				0CA5D0C2221A67830066513D /* Assets.xcassets */,
 				0CA5D0C4221A67830066513D /* LaunchScreen.storyboard */,
 				0CA5D0C7221A67830066513D /* Info.plist */,
+				0CA5D0CD221ACDBB0066513D /* IconCollectionViewCell.swift */,
+				0CA5D0CF221ACDD70066513D /* IconCollectionViewController.swift */,
+				0CA5D0D1221AF0880066513D /* Icon.swift */,
 			);
 			path = CollectionViewDemo;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA5D0BE221A677B0066513D /* ViewController.swift in Sources */,
 				0CA5D0BC221A677B0066513D /* AppDelegate.swift in Sources */,
+				0CA5D0D0221ACDD70066513D /* IconCollectionViewController.swift in Sources */,
+				0CA5D0D2221AF0890066513D /* Icon.swift in Sources */,
+				0CA5D0CE221ACDBB0066513D /* IconCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
